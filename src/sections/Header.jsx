@@ -68,6 +68,7 @@ const Header = () => {
           ))}
         </ul>
       </div>
+      <button className='bg-green-500 px-8 py-3 rounded-full hover:bg-orange-500 hover:text-black font-bold hidden lg:flex'>ORDER NOW</button>
     </nav>
   );
 };
