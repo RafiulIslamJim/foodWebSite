@@ -22,13 +22,13 @@ const Menu = () => {
   return (
     <>
     <section className='w-full bg-slate-950 h-fit px-20 py-28 flex flex-col lg:flex-row justify-center items-center gap-16'>
-      <div data-aos='slide-right' className='flex justify-center items-center bg-center bg-cover lg:h-[350px] lg:w-[300px]h-[300px] w-[300px] rounded-xl' style={{backgroundImage: `url(${menu1})`}}>
+      <div data-aos='slide-up' className='flex justify-center items-center bg-center bg-cover lg:h-[350px] lg:w-[300px]h-[300px] w-[300px] rounded-xl' style={{backgroundImage: `url(${menu1})`}}>
         <h1 className='text-white font-bold text-3xl'>FRESH FOOD</h1>
       </div>
       <div data-aos='slide-up' className='flex justify-center items-center bg-center bg-cover lg:h-[350px] lg:w-[300px]h-[300px] w-[300px] rounded-xl' style={{backgroundImage: `url(${menu2})`}}>
         <h1 className='text-white font-bold text-3xl'>FRESH FOOD</h1>
       </div>
-      <div data-aos='slide-left' className='flex justify-center items-center bg-center bg-cover lg:h-[350px] lg:w-[300px]h-[300px] w-[300px] rounded-xl' style={{backgroundImage: `url(${menu3})`}}>
+      <div data-aos='slide-up' className='flex justify-center items-center bg-center bg-cover lg:h-[350px] lg:w-[300px]h-[300px] w-[300px] rounded-xl' style={{backgroundImage: `url(${menu3})`}}>
         <h1 className='text-white font-bold text-3xl'>FRESH FOOD</h1>
       </div>
     </section>
